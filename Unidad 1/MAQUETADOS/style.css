@@ -1,0 +1,54 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /*Se utiliza o por separado cada uno o todos en una*/
+    margin: 100px 100px 100px 100px;
+    /*Para unir hacia arriba o abajo, dercha on izquierda*/
+    margin: 100px 100px;
+    /*Hacer propiedades de 3 */
+    margin: 100px 200px;
+    /*Hacer un borde*/
+    border: 3px;
+    border-style: solid;
+    /*Hacer espacios*/
+    padding: 25px;
+    /*Colores de fondo*/
+    background-color:black;
+    /*Colores en letra*/
+    color:beige;
+    background-image: url("./fondo.svg");
+
+}
+p {
+    /*Aumenta las letras*/
+    font-size: large;
+}
+.d-flex{
+display: flex;
+justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: rgb(36, 36, 207);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
